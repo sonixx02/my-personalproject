@@ -166,10 +166,11 @@ li {
 
 .txt {
   margin: 8px;
+  font-size: 1em;
 }
 
 .desc {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 100;
   margin-top: 25px;
   color: rgba(255, 255, 255, 0.637);
@@ -258,10 +259,20 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+
+
+  .text-container {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-right: 9em;
+  }
+
   .text {
     font-size: 10vw;
   }
-  .text1{
+
+  .text1 {
     color: #e6e6e6;
     font-size: 18.25px;
     border-bottom: 1px dashed black;
@@ -282,6 +293,7 @@ a {
 
   .txt {
     margin: 5px;
+    font-size: 1em;
   }
 
   .desc {
@@ -349,10 +361,17 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .container2{
+  .img{
+    margin-left: 4em;
+    margin-top: 2em;
+    height: 14em;
+  }
+  .container2 {
     display: flex;
     flex-wrap: wrap;
+   
   }
+
   .herotext {
     font-size: 45px;
     margin-bottom: 0px;
@@ -443,6 +462,8 @@ footer {
   display: flex;
   flex-direction: column;
   margin-right: 9em;
+  left: 5em;
+  position: relative;
 }
 
 .proimage {
@@ -455,11 +476,11 @@ footer {
   align-items: center;
   margin-top: 20px;
   margin-left: 20px;
+  
 }
 
 .txt {
   position: relative;
-  left: 2em;
   color: antiquewhite;
 }
 
@@ -467,5 +488,5 @@ footer {
   body {
     overflow-x: hidden;
   }
-  
+
 }
